@@ -7,7 +7,17 @@
 
 
 <button pButton 
+        type="button"
         (click)="mostrarNombre()"
-        label="Cambiar Nombre">
+        label="Cambiar Nombre"
+        class="p-button-help"
+        icon="pi pi-check"
+        iconPos="right"
+        >
   
 </button>
+
+
+<p-card [header]="nombre">
+  Contend
+</p-card>
